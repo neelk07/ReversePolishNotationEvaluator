@@ -16,8 +16,10 @@ Download the files and run:
 ruby rpn.rb "{EXPRESSION}"
 ```
 
-EXPRESSION = expression to evaluate using reverse polish notation 
+EXPRESSION = expression to evaluate using reverse polish notation (EXPRESSION must be wrapped in " ")
 
-(ex: ruby rpn.rb "1 2 +" => "SUCCESS: 1 2 + = 3")
+```ruby
+ruby rpn.rb "1 2 +" 
+=> "SUCCESS: 1 2 + = 3")
+```
 
-* note that EXPRESSION must be wrapped in " "
