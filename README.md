@@ -11,7 +11,10 @@ Usage
 =====
 
 Download the files and run:
-```ruby rpn.rb "{EXPRESSION}"```
+
+```ruby
+ruby rpn.rb "{EXPRESSION}"
+```
 
 EXPRESSION = expression to evaluate using reverse polish notation 
 
