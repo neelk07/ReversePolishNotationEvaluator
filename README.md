@@ -4,6 +4,7 @@ ReversePolishNotationEvaluator
 An implementation of a reverse polish notation evaluator in Ruby
 
 ex: "1 2 +" evaluates to "3"
+
 ex: "2 3 4 + *" evaluates to "14"
 
 Usage
